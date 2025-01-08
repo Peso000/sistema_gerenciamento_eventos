@@ -1,0 +1,88 @@
+.slider{
+    margin: 0 auto; /* centralização da div */
+    width: 100%; /* ocupar toda a tela */
+    height: auto; /* ficar no tamanho das imagens */
+    padding: 0 !important; /* para que ele não crie paddins adicionais quanto for para um dispositivo */
+    overflow: hidden;
+}
+
+.sliderContent{
+    width: 400%; /* para comportar todos os slides */
+    height: auto; /* ficar do tamanho das imagens */
+    display: flex; /* para ficar um do lado do outro */
+    align-items: center;
+}
+
+.sliderContent input, .imgMobile{
+    display: none;
+}
+
+.slideBox{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slideBox img{
+    width: 100%;
+    max-height: 350px;
+}
+
+.navManual, .navAuto{
+    position: absolute; /* para que a navegação manual não vaze para outros lugares */
+    width: 100%;
+    margin-top: 21%;
+    display: flex;
+    justify-content: center;
+}
+
+.navManual .manualBtn, .navAuto div{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navManual .manualBtn:not(:last-child), .navAuto div:not(:last-child){
+    margin-right: 8px; /* dá o espaçamento a direita, menos para o ultimo filho */
+}
+
+.navManual .manualBtn:hover, .navAuto div:hover{
+    background-color: black;
+}
+
+.active{
+    background-color: black !important;
+}
+
+.foco{
+    z-index: 1;
+    margin-left: 0%;
+}
+
+.foraFoco{
+    z-index: -1;
+    margin-left: -25%;
+}
+
+.semTransicao{
+    transition: none !important;
+    z-index: 1;
+}
+
+@media screen and (max-width: 900px){
+    .img-desktop{
+        display: none;
+    }
+
+    .imgMobile{
+        display: relative;
+    }
+
+    .navAuto, .navManual{
+        margin-top: 60%;
+    }
+}

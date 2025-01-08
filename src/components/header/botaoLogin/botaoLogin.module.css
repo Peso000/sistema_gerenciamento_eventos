@@ -1,0 +1,16 @@
+.navegacao{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+    width: 13%;
+}
+
+.navegacao li a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.navegacao li a:hover{
+    color: rgb(224, 224, 224);
+}

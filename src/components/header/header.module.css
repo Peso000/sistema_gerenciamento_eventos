@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Delius+Swash+Caps&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo{
+    color: white;
+    font-family: "Exo 2", serif;
+    display: flex;
+    justify-content: center;
+    width: 12%;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}

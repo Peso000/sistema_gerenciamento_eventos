@@ -1,0 +1,40 @@
+.pesquisa{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa form{
+    width: 100%;
+}
+
+.pesquisa form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#barraPesquisa{
+    width: 100%;
+    height: 22px;
+    border-radius: 50px 0 0 50px;
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.lupa{
+    max-width: 23px;
+}
+
+#btnEnviar{
+    border-radius: 0 50px 50px 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 105, 105);
+    height: 40px;
+}
