@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 
 import Header from "../../components/header/header";
-import Carrosel from "../../components/carrosel/carrosel"
-import Main from "../../components/main/main";
+import Carrosel from "./component/carrosel/carrosel"
+import Main from "./component/main/main";
 
 const Home = () =>{
     return(

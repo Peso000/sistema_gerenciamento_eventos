@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Delius+Swash+Caps&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+.caixaLogin{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 7px;
+    box-shadow: 0px 0px 19px 0px #ffffff14;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    color: white;
+    font-family: "Exo 2", serif;
+    margin-bottom: 2px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputs p{
+    margin: 5px 0px 5px;
+    color: white;
+}
+
+.login input{
+    width: 97%;
+    gap: 27px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px black solid;
+    font-size: 16px;
+    padding-left: 7px;
+}
+
+.cadastroTrocarSenha{
+    color: white;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadastroTrocarSenha p:hover{
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.login button{
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.login button:hover{
+    background-color: black;
+    color: white;
+}
+
+.erro{
+    display: block;
+    text-align: center;
+}
+
+.erro p{
+    color: red;
+    margin: 5px 0px 5px;
+}
+
+.semErro{
+    display: none;
+}

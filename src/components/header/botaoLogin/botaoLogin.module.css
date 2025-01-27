@@ -11,6 +11,7 @@
     text-decoration: none;
 }
 
-.navegacao li a:hover{
-    color: rgb(224, 224, 224);
+.navegacao li p:hover{
+    color: rgb(175, 175, 175);
+    cursor: pointer;
 }
